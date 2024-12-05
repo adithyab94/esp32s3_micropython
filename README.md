@@ -18,7 +18,7 @@ This example demonstrates how to estimate state of health and state of chrage of
 input_cols = ['U[V]', 'I[A]', 'T_amb'] 
 output_cols = 'SoH'
 
-data = pd.read_csv("data_fraun.csv", usecols=input_cols)
+data = pd.read_csv("data.csv", usecols=input_cols)
 trimmed_df = data.iloc[:300]
 
 # Convert the trimmed DataFrame to a NumPy array
