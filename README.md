@@ -1,6 +1,6 @@
 # MICROPYTHON LSTM EXAMPLE
 
-This example demonstrates how to run SOC and SOH estimation using LSTM network and micropython on esp32.
+This example demonstrates how to estimate state of health and state of chrage of a Li-ion battery using LSTM and micropython on esp32.
 
 
 ## Prerequisites
